@@ -1,0 +1,43 @@
+{
+    "holamundo.cpp" : {
+        "filename": "holamundo.cpp",
+        "tests": [
+            {
+                "expected_output": "Hola Mundo!",
+                "obtained_output": "",
+                "score": 0
+            }
+        ]
+    },
+    "imprimirvalores.cpp" : {
+        "filename": "imprimirvalores.cpp",
+        "tests": [
+            {
+                "expected_output": "El nombre es Juan de edad 34",
+                "obtained_output": ""
+            }
+        ],
+        "score": 0
+    },
+    "ingresarvalores.cpp" : {
+        "filename": "ingresarvalores.cpp",
+        "tests": [
+            {
+                "inputs": ["Juan", "34"],
+                "expected_output": "El nombre es Juan de edad 34",
+                "obtained_output": ""
+            },
+            {
+                "inputs": ["Pedro", "16"],
+                "expected_output": "El nombre es Pedro de edad 16",
+                "obtained_output": ""
+            },
+            {
+                "inputs": ["Ana", "25"],
+                "expected_output": "El nombre es Ana de edad 25",
+                "obtained_output": ""
+            }
+        ],
+        "score": 0
+    }
+}
